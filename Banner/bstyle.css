@@ -1,0 +1,42 @@
+body {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #152c16;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.25em;
+  gap: 40px;
+}
+
+.div1 {
+  padding-left: 40px;
+  color: white;
+}
+
+.div2 img {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: rgb(54, 192, 23);
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1.25em;
+  align-items: center;
+}
+
+button:hover {
+  background-color: rgb(6, 249, 79);
+  cursor: pointer;
+}
