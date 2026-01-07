@@ -1,0 +1,36 @@
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+  background-color: #b3f9ce;
+}
+
+div p,h4,i {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.btn {
+  border: none;
+  background-color: skyblue;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+}
+
+div section{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+  background-color: deepskyblue;
+  cursor: pointer;
+}
